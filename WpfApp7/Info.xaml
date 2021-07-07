@@ -9,11 +9,11 @@
     <Grid>
         <StackPanel>
             <Label>Vendor</Label>
-            <TextBox Text="{Binding InfoCar.Vendor}" FontSize="30" ></TextBox>
+            <TextBox Text="{Binding InfoCar.Vendor,UpdateSourceTrigger=PropertyChanged}" FontSize="30" ></TextBox>
             <Label>Model</Label>
-            <TextBox Text="{Binding InfoCar.Model}" FontSize="30" ></TextBox>
+            <TextBox Text="{Binding InfoCar.Model,UpdateSourceTrigger=PropertyChanged}" FontSize="30" ></TextBox>
             <Label>Year</Label>
-            <TextBox Text="{Binding InfoCar.Year}" FontSize="30" ></TextBox>
+            <TextBox Text="{Binding InfoCar.Year,UpdateSourceTrigger=PropertyChanged}" FontSize="30" ></TextBox>
         </StackPanel>
     </Grid>
 </Window>
